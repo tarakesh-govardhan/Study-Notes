@@ -1,0 +1,170 @@
+# Penetration Testing Process
+
+## Overview
+
+This document outlines a structured penetration testing methodology based on hands-on lab experience, industry practices, and ongoing preparation for the Hack The Box CPTS certification.
+
+The goal is to establish a **practical, repeatable approach** to identifying and exploiting vulnerabilities in real-world environments.
+
+---
+
+## Methodology Approach
+
+Penetration testing is not a strictly linear process. It is:
+
+* **Iterative** – findings in one phase influence others
+* **Evidence-driven** – decisions are based on discovered data
+* **Objective-focused** – aligned with defined engagement goals
+* **Adaptive** – evolves based on the target environment
+
+Testers frequently move back and forth between stages as new attack paths emerge.
+
+---
+
+## Penetration Testing Stages
+
+1. Pre-Engagement
+2. Information Gathering
+3. Enumeration & Vulnerability Analysis
+4. Exploitation
+5. Post-Exploitation
+6. Lateral Movement
+7. Proof of Impact
+8. Reporting
+
+---
+
+## 1. Pre-Engagement
+
+Defines the legal and operational boundaries of the assessment.
+
+Key activities:
+
+* Scope definition (targets, exclusions)
+* Rules of Engagement (RoE)
+* Authorization and compliance checks
+* Testing constraints and timelines
+
+This phase ensures all testing is **authorized and controlled**.
+
+---
+
+## 2. Information Gathering
+
+Focuses on identifying the attack surface.
+
+Typical objectives:
+
+* Discover live hosts and exposed services
+* Identify technologies and frameworks
+* Map network structure and entry points
+
+At this stage, the goal is **breadth over depth**.
+
+---
+
+## 3. Enumeration & Vulnerability Analysis
+
+This is the **most critical phase** in practical penetration testing.
+
+The tester performs deep analysis of discovered services to identify:
+
+* Misconfigurations
+* Weak authentication mechanisms
+* Exposed sensitive functionality
+* Outdated or vulnerable software
+
+Unlike basic scanning, this phase is:
+
+* Manual-heavy
+* Detail-oriented
+* Iterative
+
+Most successful attacks originate from strong enumeration.
+
+---
+
+## 4. Exploitation
+
+In this phase, identified weaknesses are tested to determine if they can be leveraged to gain access.
+
+Focus areas:
+
+* Validating vulnerabilities
+* Gaining initial foothold
+* Demonstrating real-world impact
+
+The goal is not just access, but **controlled and reproducible exploitation**.
+
+---
+
+## 5. Post-Exploitation
+
+Once access is obtained, the tester evaluates the compromised system.
+
+Key objectives:
+
+* Assess privilege level
+* Identify sensitive data
+* Locate credential material
+* Understand system role within the environment
+
+This phase determines the **value of the compromise**.
+
+---
+
+## 6. Lateral Movement
+
+Expands access across the environment.
+
+Typical actions:
+
+* Reusing credentials
+* Accessing additional systems
+* Pivoting through the network
+
+This phase simulates how an attacker would move within an enterprise.
+
+---
+
+## 7. Proof of Impact
+
+Focuses on demonstrating the severity of findings.
+
+This may include:
+
+* Controlled data access demonstration
+* Privilege escalation validation
+* Evidence of system compromise
+
+The goal is to clearly show **business impact**, not just technical issues.
+
+---
+
+## 8. Reporting
+
+The final phase translates technical findings into actionable insights.
+
+Deliverables include:
+
+* Detailed vulnerability descriptions
+* Proof-of-concept evidence
+* Risk assessment
+* Remediation recommendations
+
+Effective reporting ensures findings can be **understood and acted upon**.
+
+---
+
+## Key Takeaways
+
+* Enumeration is the most critical phase in real-world testing
+* Attack paths are discovered through iterative analysis
+* Exploitation is only one part of the overall process
+* Clear reporting is essential for real impact
+
+---
+
+## Disclaimer
+
+All concepts documented here are based on authorized lab environments and are intended for educational purposes only.
